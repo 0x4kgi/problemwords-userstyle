@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           problemwords style
+@namespace      https://github.com/0x4kgi
+@version        0.1.0
+@description    A user style for problemwords.com that I find to be nicer and cleaner
+@author         0x4kgi (https://github.com/0x4kgi)
+==/UserStyle== */
+
+@-moz-document domain("problemwords.com") {
+  input {
+    width: 100%
+  }
+
+  input.mistake {
+    border: 2px solid red;
+    background-color: #ff000059;
+    color: white !important;
+  }
+
+  .informer {
+    text-align: center !important;
+  }
+
+  .problem {
+    font-weight: normal !important;
+  }
+
+  .problem.finished {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+  }
+
+  .mistaken.problem.finished {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+  }
+
+  .mistaken.finished {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+  }
+
+  .words {
+    font-size: 125%;
+  }
+}
